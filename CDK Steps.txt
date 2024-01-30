@@ -1,0 +1,11 @@
+1. Install Node.js
+2. Install AWS CLI-> (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+3. npm install -g aws-cdk 
+4. Install TypeScript =>  npm install -g typescript
+5. cdk init app --language=typescript --> Create a Sample app
+6.  cdk bootstrap
+7. mkdir templates -> Create a folder to store the generated cloud formation templates
+8. cdk synth --output=./templates -> Generate the Cloud formation templates
+9. cdk-list -> List all of the stacks in the app
+10. CDK docs -> To redirect to cdk docs
+11. CDK Diff -> List all the updates that are done to an existing stack
