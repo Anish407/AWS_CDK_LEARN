@@ -6,9 +6,14 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+*   Install Node.js
+*  Install AWS CLI-> (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+*  npm install -g aws-cdk 
+*  Install TypeScript =>  npm install -g typescript
+*  cdk init app --language=typescript --> Create a Sample app
+*  cdk bootstrap
+* mkdir templates -> Create a folder to store the generated cloud formation templates
+*  cdk synth --output=./templates -> Generate the Cloud formation templates
+*  cdk-list -> List all of the stacks in the app
+*  CDK docs -> To redirect to cdk docs
+*  CDK Diff -> List all the updates that are done to an existing stack
