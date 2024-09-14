@@ -10,6 +10,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 *  Install AWS CLI-> (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 *  npm install -g aws-cdk 
 *  Install TypeScript =>  npm install -g typescript
+*  npm install -g aws-cdk
 *  cdk init app --language=typescript --> Create a Sample app
 *  cdk bootstrap
 * mkdir templates -> Create a folder to store the generated cloud formation templates
